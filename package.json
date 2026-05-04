@@ -1,0 +1,18 @@
+{
+  "name": "mgf-bot",
+  "version": "1.0.0",
+  "description": "메이플 키우기 mgf.gg 연동 카카오톡 챗봇 (dev-dain 블로그 스타일)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
